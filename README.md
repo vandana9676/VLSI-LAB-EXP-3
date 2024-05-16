@@ -24,11 +24,6 @@ STEP:7 compare the output with truth table.
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
-
-**4 Bit Multiplier**
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
 **Verilog code**
 ## 2 bit multiplier:
 module ha(a,b,sum,c);
@@ -58,7 +53,13 @@ ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
 ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
 endmodule
+**Output Waveform**
 
+## 2 bit multiplier:
+![image](https://github.com/vandana9676/VLSI-LAB-EXP-3/assets/165563035/b7db7cd2-d3f8-49f1-8ad8-7cd02fdc5fe1)
+**4 Bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 ## 4 bit multipler:
 module ha(a,b,c,s);
 
@@ -127,16 +128,10 @@ fa fa7(w[14],x[2]&y[3],w[16],z[5],w[17]);
 fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule
-**Output Waveform**
-
-## 2 bit multiplier:
-![image](https://github.com/vandana9676/VLSI-LAB-EXP-3/assets/165563035/b7db7cd2-d3f8-49f1-8ad8-7cd02fdc5fe1)
 ## 4 bit multiplier:
 ![image](https://github.com/vandana9676/VLSI-LAB-EXP-3/assets/165563035/9536c274-f5d5-4682-883b-1ed0b2dfd560)
 **Result**
 
  Thus,the simulation and synthesis of multipliers by using vivado has been successfully excecuted and verified.
-
-
 
 
